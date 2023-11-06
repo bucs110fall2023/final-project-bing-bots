@@ -12,7 +12,7 @@
 
 ## Project Description
 
-<< Give an overview of your project >>
+- Overall, our idea is going to be a digital form of whack a mole where images (either animals or a visual of something we collectively agree on) are going to be appearing and disappearing. The objective of the game would be to click on as many appearing images as possible in a given amount of time. The number of "moles" whacked is going to be tracked and at the end the user will be able to see how many "moles" they've whacked in the given period of time. 
 
 ***    
 
