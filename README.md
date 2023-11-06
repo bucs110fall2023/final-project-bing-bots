@@ -6,8 +6,8 @@
 
 ## Team Members
 
-<< List team member names >>
-
+- Shihab Delwar
+- Yanniah Boyd
 ***
 
 ## Project Description
