@@ -1,18 +1,31 @@
 import pygame
+import sys
+import random
 #import your controller
 
 def main():
     pygame.init()
     #Create an instance on your controller object
     #Call your mainloop
+    global timer
+    global score
+
+    while timer > 0:
+        handle_events()
+        update_game()
+        draw_game()
+        clock.tick(60)
+
+    # Show the final score
+    screen.fill(BACKGROUND_COLOR)
+    final_score_text = font.render(f'Congratulations, you finished the game with a score of {score}', True, TEXT_COLOR)
+    screen.blit(final_score_text, (WIDTH // 2 - 280, HEIGHT // 2 - 50))
+    pygame.display.flip()
+    pygame.time.wait(3000)  # Display the final score for 3 seconds before quitting
     
     ###### NOTHING ELSE SHOULD GO IN main(), JUST THE ABOVE 3 LINES OF CODE ######
 
 # https://codefather.tech/blog/if-name-main-python/
-
-import pygame
-import sys
-import random
 
 # Constants
 WIDTH, HEIGHT = 800, 600
