@@ -19,13 +19,11 @@ def main():
     # Show the final score
     screen.fill(BACKGROUND_COLOR)
     final_score_text = font.render(f'Congratulations, you finished the game with a score of {score}', True, TEXT_COLOR)
-    screen.blit(final_score_text, (WIDTH // 2 - 280, HEIGHT // 2 - 50))
+    screen.blit(final_score_text, (WIDTH // 2 - 300, HEIGHT // 2 - 50))
     pygame.display.flip()
     pygame.time.wait(3000)  # Display the final score for 3 seconds before quitting
     
     ###### NOTHING ELSE SHOULD GO IN main(), JUST THE ABOVE 3 LINES OF CODE ######
-
-# https://codefather.tech/blog/if-name-main-python/
 
 # Constants
 WIDTH, HEIGHT = 800, 600
@@ -95,44 +93,22 @@ def update_game():
 # Function to draw the game
 def draw_game():
     screen.fill(BACKGROUND_COLOR)
-
     # Draw holes
     for pos in HOLE_POSITIONS:
         pygame.draw.circle(screen, HOLE_COLOR, pos, HOLE_SIZE)
-
     all_sprites.draw(screen)
-
     # Draw timer and score
     timer_text = font.render(f'Time: {timer}', True, TEXT_COLOR)
     score_text = font.render(f'Score: {score}', True, TEXT_COLOR)
     screen.blit(timer_text, (10, 10))
     screen.blit(score_text, (10, 50))
-
     pygame.display.flip()
 
 # Function to increase the score
 def increase_score():
     global score
     score += 1
-
-# Main game loop
-def main():
-    global timer
-    global score
-
-    while timer > 0:
-        handle_events()
-        update_game()
-        draw_game()
-        clock.tick(60)
-
-    # Show the final score
-    screen.fill(BACKGROUND_COLOR)
-    final_score_text = font.render(f'Congratulations, you finished the game with a score of {score}', True, TEXT_COLOR)
-    screen.blit(final_score_text, (WIDTH // 2 - 280, HEIGHT // 2 - 50))
-    pygame.display.flip()
-    pygame.time.wait(3000)  # Display the final score for 3 seconds before quitting
-
+    
 # Set up timer and score
 font = pygame.font.Font(None, TIMER_FONT_SIZE)
 timer = GAME_DURATION
