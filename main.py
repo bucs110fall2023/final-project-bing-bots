@@ -81,21 +81,6 @@ def handle_events():
                 mole.hide()
                 increase_score()
 
-# Function to update game state
-# def update_game():
-#     global timer
-#     global score
-#     current_time = pygame.time.get_ticks()
-#     if timer > 0:
-#         # Randomly show/hide the mole
-#         if random.random() < 0.02:
-#             if mole.hidden:
-#                 mole.show()
-#             else:
-#                 mole.hide()
-#         if current_time % 1000 == 0:
-#             # Update timer
-#             timer -= 1
 def update_game():
     global timer
     global score
