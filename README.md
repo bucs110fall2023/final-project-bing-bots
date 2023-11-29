@@ -12,7 +12,7 @@
 
 ## Project Description
 
-- Overall, our idea is going to be a digital form of whack a mole where images (either animals or a visual of something we collectively agree on) are going to be appearing and disappearing. The objective of the game would be to click on as many appearing images as possible in a given amount of time. The number of "moles" whacked is going to be tracked and at the end the user will be able to see how many "moles" they've whacked in the given period of time. 
+- Overall, our idea is going to be a digital form of whack a mole where an object is going to be appearing, disappearing, and reappearing at various coordinates of the display where the 9 holes are placed for the game. The objective of the game would be to click on as many appearing objects as possible in a given amount of time. The number of "moles" whacked is going to be tracked and at the end the user will be able to see how many "moles" they've whacked in the given period of time. The timer in the top left corner counts down the number of secodns remaining and the tracker in the top left tracks the total number of "moles" that have been whacked so far. 
 
 ***    
 
@@ -30,8 +30,8 @@
 
 ### Features
 
-1. << Feature 1 >>
-2. << Feature 2 >>
+1. Timer that counts down preset in the top left corner of the display.
+2. Whack tracker that counts the number of moles whacked in the top left corner of the display.
 3. << Feature 3 >>
 4. << Feature 4 >>
 5. << Feature 5 >>
