@@ -18,12 +18,6 @@ HOLE_POSITIONS = [(100, 100), (400, 100), (700, 100),
                   (100, 300), (400, 300), (700, 300),
                   (100, 500), (400, 500), (700, 500)]
 
-# Set up display
-pygame.init()
-screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Whack-a-Mole")
-clock = pygame.time.Clock()
-
 # Mole class
 class Mole(pygame.sprite.Sprite):
     def __init__(self):
@@ -135,5 +129,10 @@ class WhackAMoleGame:
                 sys.exit()
 
 if __name__ == "__main__":
+    # Set up display
+    pygame.init()
+    screen = pygame.display.set_mode((WIDTH, HEIGHT))
+    pygame.display.set_caption("Whack-a-Mole")
+    clock = pygame.time.Clock()
     game = WhackAMoleGame()
     game.run()
