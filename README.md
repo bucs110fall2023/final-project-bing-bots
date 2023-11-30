@@ -32,9 +32,9 @@
 
 1. Timer that counts down preset in the top left corner of the display.
 2. Whack tracker that counts the number of moles whacked in the top left corner of the display.
-3. << Feature 3 >>
-4. << Feature 4 >>
-5. << Feature 5 >>
+3. Starter page that starts the program when clicked.
+4. Final Score Page after the program runs that congratulates the player and tells them their score.
+5. "Moles" that appear and disappear and then reappear when clicked on.
 
 ### Classes
 
