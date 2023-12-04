@@ -46,7 +46,7 @@
 ## ATP
 | Step    | Action | Result | 
 | -------- | ------- | -------|
-| 1  | blah    |
-| 2 | blah 2     |
-| 3    | blah 3    |
+| 1  -| blah    |
+| 2 -| blah 2     |
+| 3  -  | blah 3    |
 
