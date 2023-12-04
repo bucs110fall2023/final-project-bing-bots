@@ -44,9 +44,9 @@
     - Initializes the code that allows for the program to run. Incorporates a function that calculates whether the point of the player's click is within the radius of the mole when it is showing on the display. Handles the pygame events including quitting the program and what to do when the mousebutton is pressed down. Has a function that increases the score of the player when a mole is efficiently clicked on. Has a function that draws the starter screen that says "Click To Play" that has to be pressed for the game to start. Has a function that draws the final score page that states the score of the player at the end of the game and congratulates the player. Runs the main loop function of the program that allows for the entire program to run. 
 
 ## ATP
-| Month    | Savings |
-| -------- | ------- |
-| January  | $250    |
-| February | $80     |
-| March    | $420    |
+| Step    | Action | Result | 
+| -------- | ------- | -------|
+| 1  | blah    |
+| 2 | blah 2     |
+| 3    | blah 3    |
 
