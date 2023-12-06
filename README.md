@@ -44,5 +44,11 @@
     - Initializes the code that allows for the program to run. Incorporates a function that calculates whether the point of the player's click is within the radius of the mole when it is showing on the display. Handles the pygame events including quitting the program and what to do when the mousebutton is pressed down. Has a function that increases the score of the player when a mole is efficiently clicked on. Has a function that draws the starter screen that says "Click To Play" that has to be pressed for the game to start. Has a function that draws the final score page that states the score of the player at the end of the game and congratulates the player. Runs the main loop function of the program that allows for the entire program to run. 
 
 ## ATP
-
-
+| Step    | Action | Result | 
+| -------- | ------- | -------|
+| 1 | Go to the center of the display and click on the "Click To Play" text to begin the game. | The game initializes immediately and the timer begins to go down.|
+| 2 | Follow the orange circles and click on them in whichever order they appear. | Each time the orange circle is clicked on, the score increases by 1 point and the score tracker shows that occurring in the top left corner. | 
+| 3 | Timer decreasing as long as game is still running| Timer tracker decreases each second until the 30 seconds are up and the game ends. | 
+| 4 |When an orange circle is clicked properly in the boundaries of the circle. | The orange circle disappears and another circle reappears in another position.|
+| 5 |After 30 seconds passes and the timer tracker is down to 0, the game ends| Final Score display is shown and the player is congratulated and shown their final score| 
+| 6 | If circle is not clicked or not clicked in the given time that it appears on display| The circle disappears and another appears in another random position. |
